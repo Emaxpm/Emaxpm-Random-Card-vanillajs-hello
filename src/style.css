@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: #0e7e12;
+}
+.container-card {
+  border-radius: 5%;
+  width: 150px;
+  margin: auto;
+  background-color: #fff;
+  margin-top: 4%;
+}
+.cards-items {
+  font-size: 250%;
+}
+.top-item {
+  margin-left: 5%;
+}
+.number {
+  text-align: center;
+}
+.bottom-item {
+  text-align: left;
+  margin-right: 5%;
+  transform: rotate(180deg);
+}
+.bu {
+  text-align: center;
+  margin-top: 3%;
+}
+.boton {
+  background: #eeeee4;
+  border: solid #44bcd8 3px;
+  padding: 0.5%;
+}
