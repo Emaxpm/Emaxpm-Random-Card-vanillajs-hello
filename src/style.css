@@ -2,25 +2,46 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background: #0e7e12;
+  background-image: url(https://images.unsplash.com/photo-1512767254318-423c816efbf3?q=80&w=2673&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .container-card {
   border-radius: 5%;
-  width: 150px;
+  width: 180px;
+  height: auto;
   margin: auto;
   background-color: #fff;
   margin-top: 4%;
 }
-.cards-items {
-  font-size: 250%;
-}
-.top-item {
+.top-class {
+  font-size: 30px;
+  padding: 0;
+  margin: 0;
   margin-left: 5%;
 }
-.number {
+.top-item {
+  padding: 0;
+  margin: 0;
+  margin-left: 5%;
+  font-size: 32px;
+}
+.letter {
   text-align: center;
+  font-size: 40px;
 }
 .bottom-item {
+  font-size: 32px;
+  padding: 0;
+  margin: 0;
+  text-align: left;
+  margin-right: 5%;
+  transform: rotate(180deg);
+}
+.bottom-class {
+  font-size: 30px;
+  padding: 0;
+  margin: 0;
   text-align: left;
   margin-right: 5%;
   transform: rotate(180deg);
@@ -29,8 +50,22 @@ body {
   text-align: center;
   margin-top: 3%;
 }
-.boton {
-  background: #eeeee4;
-  border: solid #44bcd8 3px;
-  padding: 0.5%;
+
+button,
+button:focus {
+  font-size: 17px;
+  padding: 10px 25px;
+  border-radius: 0.7rem;
+  background-image: linear-gradient(rgb(214, 202, 254), rgb(158, 129, 254));
+  border: 2px solid rgb(50, 50, 50);
+  border-bottom: 5px solid rgb(50, 50, 50);
+  box-shadow: 0px 1px 6px 0px rgb(158, 129, 254);
+  transform: translate(0, -3px);
+  cursor: pointer;
+  transition: 0.2s;
+  transition-timing-function: linear;
+}
+button:active {
+  transform: translate(0, 0);
+  border-bottom: 2px solid rgb(50, 50, 50);
 }
